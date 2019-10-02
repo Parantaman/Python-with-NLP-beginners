@@ -69,7 +69,7 @@ precision, recall, fscore, train_support = score(y_test, y_pred, pos_label='spam
 print('Fit time: {} / Predict time: {} ---- Precision: {} / Recall: {} / Accuracy: {}'.format(
     round(fit_time, 3), round(pred_time, 3), round(precision, 3), round(recall, 3), round((y_pred==y_test).sum()/len(y_pred), 3)))
 
-Fit time: 1.782 / Predict time: 0.213 ---- Precision: 1.0 / Recall: 0.81 / Accuracy: 0.975
+
                     
                     
                     
@@ -92,4 +92,4 @@ print('Fit time: {} / Predict time: {} ---- Precision: {} / Recall: {} / Accurac
 
 
 
-Fit time: 186.61 / Predict time: 0.135 ---- Precision: 0.889 / Recall: 0.816 / Accuracy: 0.962
+
